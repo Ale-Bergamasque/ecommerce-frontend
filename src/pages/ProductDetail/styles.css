@@ -1,0 +1,37 @@
+@import url('../../css/global.css');
+
+.main-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0px 120px 150px 120px;
+}
+
+.main-product__guide {
+    display: inline-block;
+
+    margin-bottom: 32px;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-26);
+
+    color: var(--gray);
+}
+
+.main-product__title {
+    margin-bottom: 32px;
+
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-24);
+    line-height: var(--line-height-28);
+
+    color: var(--dark-gray);
+}
+
+.main-product__other-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+}

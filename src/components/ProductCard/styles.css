@@ -1,0 +1,40 @@
+@import url('../../css/global.css');
+
+.card {
+    width: 382px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    background-color: var(--white-ice);
+}
+
+.card__img {
+    width: 342px;
+    height: 342px;
+
+    margin-bottom: 14px;
+}
+
+.card__name {
+    width: 342px;
+    height: 48px;
+
+    margin-bottom: 8px;
+
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-20);
+    line-height: var(--line-height-23);
+
+    color: var(--dark);
+}
+
+.card__price {
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-32);
+    line-height: var(--line-height-37);
+
+    color: var(--pink);
+}

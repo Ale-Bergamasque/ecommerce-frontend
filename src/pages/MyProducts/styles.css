@@ -1,0 +1,128 @@
+@import url('../../css/global.css');
+
+.main-my-products {
+    padding: 0px 120px 150px 120px;
+}
+
+.main-my-products__title-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 32px;
+
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid var(--border-color);
+
+    background-color: var(--white-ice);
+}
+
+.main-my-products__title-products h1 {
+    cursor: pointer;
+
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-24);
+    line-height: var(--line-height-26);
+
+    color: var(--dark-gray);
+}
+
+.main-my-products__title-products button {
+    width: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-my-products__products {
+    padding: 31px;
+    margin-bottom: 30px;
+
+    background-color: var(--white-ice);
+}
+
+.main-my-products__table-title {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-20);
+    line-height: var(--line-height-23);
+
+    color: var(--gray-font);
+}
+
+.main-my-products__table-title-name {
+    margin-left: 154px;
+}
+
+.organization {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-right: 190px;
+}
+
+.main-my-products__table-title-stock,
+.main-my-products__table-title-sale,
+.main-my-products__table-title-price {
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-my-products__my-products {
+    height: 994px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-my-products__product {
+    width: 100%;
+}
+
+.main-my-products__empty-stock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-my-products__empty-stock img {
+    margin-bottom: 87px;
+    margin-top: 150px;
+}
+
+.main-my-products__empty-stock h1 {
+    margin-bottom: 10px;
+
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-40);
+    line-height: var(--line-height-47);
+
+    color: var(--empty-stock-title);
+}
+
+.main-my-products__empty-stock span {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-20);
+    line-height: var(--line-height-23);
+
+    color: var(--empty-stock-subtitle);
+}
+
+.main-my-products__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

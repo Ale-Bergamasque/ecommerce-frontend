@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #32323B;
+    --button-color: #B7005C;
+    --background-color: #F4F4F4;
+    --background-header-color: #FDFDFD;
+    --sucess-color: #105136;
+    --warning-color: #EBBC2E;
+    --alert-color: #AF1717;
+    --border-color: #E5E5E5;
+    --placeholder-color: #BABABA;
+    --background-card-mu-products-color: #F5F5F5;
+
+    --dark-gray: #383842;
+    --pink: #D10070;
+    --dark: #191919;
+    --gray: #999999;
+    --medium-gray: #9B9B9B;
+    --light-gray: #C6C6C6;
+    --gray-font: #858585;
+    --white-ice: #FCFCFC;
+    --empty-stock-title: #5A5A5A;
+    --empty-stock-subtitle: #979797;
+}

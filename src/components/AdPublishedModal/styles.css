@@ -1,0 +1,12 @@
+.ad-published-modal-span {
+    margin-bottom: 24px;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-16);
+    color: var(--gray-font)
+}
+
+.close-btn {
+    width: 130px;
+}

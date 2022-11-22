@@ -1,0 +1,27 @@
+.container-not-found {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-image: url('../../assets/Frame\ 7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-not-found button {
+    position: absolute;
+
+    top: 310px;
+    right: 490px;
+
+    width: 300px;
+    height: 70px;
+
+    font-size: 40px;
+    font-weight: 200;
+    border-radius: 6px;
+}

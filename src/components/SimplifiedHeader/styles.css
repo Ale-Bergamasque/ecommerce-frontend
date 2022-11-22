@@ -1,0 +1,48 @@
+@import url('../../css/global.css');
+
+.simplified-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 120px;
+    margin-bottom: 32px;
+
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-20);
+    line-height: var(--line-height-23);
+
+    color: var(--dark-gray);
+
+    background-color: var(--background-header-color);
+}
+
+.simplified-header__logo {
+    width: 227px;
+    height: 72px;
+}
+
+.simplified-header__back,
+.simplified-header__logoff,
+.simplified-header__user {
+    cursor: pointer;
+}
+
+.simplified-header__menu {
+    display: flex;
+}
+
+.simplified-header__user,
+.simplified-header__logoff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.simplified-header__menu img {
+    margin-right: 11px;
+}
+
+.simplified-header__user {
+    margin-right: 24px;
+}

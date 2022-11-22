@@ -1,0 +1,100 @@
+@import url('../../css/global.css');
+
+.container--login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 446px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 32px;
+
+    border-radius: 6px;
+
+    box-shadow: 0px 4px 10px 0px #00000026;
+    background-color: var(--white-ice);
+}
+
+.login__img {
+    width: 166px;
+    height: 96px;
+
+    margin-bottom: 32px;
+}
+
+.login h2 {
+    margin-bottom: 8px;
+
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-20);
+    line-height: var(--line-height-23);
+
+    color: var(--dark-gray);
+}
+
+.login__sapn-info {
+    margin-bottom: 24px;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-16);
+
+    color: var(--dark);
+}
+
+.login__form,
+.form__email,
+.form__password {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form {
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.login__form label {
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--dark-gray);
+}
+
+.form__email {
+    margin-bottom: 24px;
+}
+
+.form__password {
+    margin-bottom: 48px;
+}
+
+.login__link-signup {
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--dark);
+}
+
+.login__link-signup button {
+    all: unset;
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--button-color);
+}

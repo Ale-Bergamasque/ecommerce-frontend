@@ -1,0 +1,124 @@
+@import url('../../css/global.css');
+
+.container--signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    width: 446px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 32px;
+
+    border-radius: 6px;
+
+    box-shadow: 0px 4px 10px 0px #00000026;
+    background-color: var(--white-ice);
+}
+
+.signup__img {
+    width: 166px;
+    height: 96px;
+
+    margin-bottom: 32px;
+}
+
+.signup h2 {
+    margin-bottom: 24px;
+
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-20);
+    line-height: var(--line-height-23);
+
+    color: var(--dark-gray);
+}
+
+.signup__sapn-info {
+    margin-bottom: 24px;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-16);
+
+    color: var(--dark);
+}
+
+.signup__form,
+.form__signup-email,
+.form__signup-password,
+.form__signup-confirm-password,
+.form__signup-store {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.signup__form {
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.signup__form label {
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--dark-gray);
+}
+
+.form__signup-email,
+.form__signup-password,
+.form__signup-store,
+.form__signup-confirm-password {
+    margin-bottom: 24px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.form__signup-politcs {
+    width: 306px;
+
+    text-align: center;
+
+    margin-bottom: 24px;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-16);
+
+    color: var(--dark);
+}
+
+.form__signup-politcs a {
+    text-decoration: none;
+    color: var(--button-color);
+}
+
+.signup__link-signup {
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--dark);
+}
+
+.signup__link-signup button {
+    all: unset;
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--button-color);
+}

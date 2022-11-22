@@ -1,0 +1,45 @@
+@import url('../../css/global.css');
+
+.cancel-edit-modal-span {
+    display: inline-block;
+    margin-bottom: 24px;
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-18);
+
+    color: var(--dark);
+}
+
+.modal__delete-btns {
+    display: flex;
+}
+
+.btn-discard {
+    width: 120px;
+    padding: 10px 16px;
+    margin-right: 30px;
+}
+
+.btn-edit {
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 16px;
+
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-20);
+
+    cursor: pointer;
+
+    border-radius: 30px;
+    border: 2px solid var(--pink);
+
+    color: var(--pink);
+    background-color: var(--white-ice);
+}

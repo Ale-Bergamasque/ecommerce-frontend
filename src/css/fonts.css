@@ -1,0 +1,25 @@
+:root {
+    --font-weight-400: 400;
+    --font-weight-600: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-20: 20px;
+    --font-size-24: 24px;
+    --font-size-32: 32px;
+    --font-size-40: 40px;
+
+    --line-height-14: 14.06px;
+    --line-height-16: 16.45px;
+    --line-height-18: 18.8px;
+    --line-height-20: 20px;
+    --line-height-23: 23.5px;
+    --line-height-26: 26.75px;
+    --line-height-27: 27.29px;
+    --line-height-28: 28.2px;
+    --line-height-37: 37.6px;
+    --line-height-47: 47px;
+}
